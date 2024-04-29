@@ -1,0 +1,43 @@
+{
+  "name": "@discord-tickets/stats",
+  "version": "4.0.0",
+  "description": "A simple API which provides basic statistics for Discord Tickets.",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "docker compose up -d && nodemon .",
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/discord-tickets/stats.git"
+  },
+  "maintainers": [
+    {
+      "name": "Micorksen",
+      "email": "hello@micorksen.eu",
+      "url": "https://micorksen.eu/"
+    },
+    {
+      "name": "eartharoid",
+      "email": "contact@eartharoid.me",
+      "url": "https://eartharoid.me/"
+    }
+  ],
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/discord-tickets/stats/issues"
+  },
+  "homepage": "https://github.com/discord-tickets/stats#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "joi": "^17.13.0",
+    "mongoose": "^8.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
